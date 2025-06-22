@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Creative Landing Page</title>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+ <header id="navbar">
+  <img src="logo.png" alt="CraftlyWeb Logo" class="logo-img" />
+  <nav id="nav-menu">
+    <ul>
+      <li><a href="#home">Home</a></li>
+      <li><a href="#features">Features</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div id="hamburger">&#9776;</div>
+</header>
+
+
+  <section id="home" class="hero">
+    <h1>We create <span id="typing"></span></h1>
+    <p>Creative, Modern, and Responsive Web Experiences</p>
+    <a href="#features" class="btn">Explore Now</a>
+  </section>
+
+  <section id="features" data-animate>
+    <h2>Features</h2>
+    <p>✔ Responsive Design<br/>✔ Interactive Animations<br/>✔ Clean UI/UX<br/>✔ Modern Technologies</p>
+  </section>
+
+  <section id="about" data-animate>
+    <h2>About Us</h2>
+    <p>We are passionate developers who craft high-quality websites tailored to user needs.</p>
+  </section>
+
+  <section id="contact" data-animate>
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea placeholder="Your Message" rows="5" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 CraftlyWeb. Designed with passion and precision.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
